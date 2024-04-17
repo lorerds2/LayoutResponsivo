@@ -1,0 +1,46 @@
+.containerr {  
+    display: grid;  
+    grid-gap: 170px;  
+    grid-template-columns: repeat(auto-fit, 220px);
+    grid-template-rows: repeat(2, 260px);  
+}
+
+.container {
+    display: flex;
+    flex-direction: column;  
+    }
+   
+    .card1 {
+      background-color: rgb(210, 210, 210);
+      color: black;
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+    }
+   
+    .card2 {
+      background-color: rgb(106, 90, 205);
+      color: black;
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+    }
+
+.flex-container {
+  display: flex;
+  background-color: rgb(106, 90, 205);
+ 
+}
+
+.flex-container > div {
+  background-color:  #f1f1f1;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  padding: 90px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color:black;
+ 
+}
