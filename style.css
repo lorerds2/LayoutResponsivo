@@ -15,8 +15,8 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Layout responsivo */
     grid-gap: 10px;
     padding: 20px;
-    margin: 0 auto;
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 .grid-item {
@@ -27,6 +27,6 @@ body {
     text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
     text-align: center;
 }
